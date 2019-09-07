@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73340" started-at="2019-09-07T08:07:51Z" finished-at="2019-09-07T08:09:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="73340" started-at="2019-09-07T08:07:51Z" finished-at="2019-09-07T08:09:04Z">
+      <class name="demo.tests.mailTest">
+        <test-method status="PASS" signature="checkEmail(java.lang.String, java.lang.String)[pri:0, instance:demo.tests.mailTest@31ef45e3]" name="checkEmail" duration-ms="37983" started-at="2019-09-07T13:37:51Z" data-provider="EmailAddress" finished-at="2019-09-07T13:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumruntest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmail -->
+        <test-method status="PASS" signature="checkEmail(java.lang.String, java.lang.String)[pri:0, instance:demo.tests.mailTest@31ef45e3]" name="checkEmail" duration-ms="35298" started-at="2019-09-07T13:38:29Z" data-provider="EmailAddress" finished-at="2019-09-07T13:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blr.raghunandan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234mypwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmail -->
+      </class> <!-- demo.tests.mailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
